@@ -1,0 +1,52 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListExample {
+    public static void main(String[] args) {
+        // Create a new list
+        List<String> names = new ArrayList<>();
+
+        // Add elements to the list
+        names.add("Alice");
+        names.add("Bob");
+        names.add("Charlie");
+
+        // Access elements in the list
+        System.out.println("First element: " + names.get(0));
+        System.out.println("Second element: " + names.get(1));
+        System.out.println("Third element: " + names.get(2));
+
+        // Update an element in the list
+        names.set(1, "Ben");
+
+        // Remove an element from the list
+        names.remove(2);
+
+        // Check if an element exists in the list
+        System.out.println("Does 'Charlie' exist? " + names.contains("Charlie"));
+
+        // Iterate over the elements in the list
+        System.out.println("List elements:");
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+        // Get the size of the list
+        System.out.println("List size: " + names.size());
+
+        // Clear all elements from the list
+        names.clear();
+
+        // Check if the list is empty
+        System.out.println("Is the list empty? " + names.isEmpty());
+    }
+}
+This program creates a List of String objects and demonstrates various operations such as adding elements, accessing elements by index, updating elements, removing elements, checking for element existence, iterating over the list, getting the size of the list, and clearing the list.
+
+Feel free to modify the program to suit your needs or expand it further.
+
+
+
+
+
+
