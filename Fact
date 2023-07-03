@@ -1,0 +1,30 @@
+package practice;
+
+import java.util.Scanner;
+//import java.util.io*;
+ class factorial {
+    int a=3;
+
+
+
+
+
+        }
+
+
+    public class factorial1 {//main method having class should be public
+        public static void main(String[] args) {
+            System.out.println("enter the number ");
+            Scanner a = new Scanner(System.in);
+            int b = 1;
+            //int v = a.nextInt();
+            factorial z=new factorial();
+            int v=z.a;
+            for (int i = 1; i <= v; i++) {
+                b = b * i;
+            }
+            System.out.println("value of factorial is " + b);
+            //factorial a=new factorial();
+            System.out.println("a"+v);
+        }
+    }
